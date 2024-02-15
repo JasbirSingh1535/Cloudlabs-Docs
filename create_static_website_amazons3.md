@@ -2,7 +2,7 @@
 To learn, How to create a Static Website using Amazon S3.
 
 # Overview
-In this Lab, You will learn to create a static website using Amazon S3 service. Hosting is static website on Amazon s3 is simple ,easy and cost effective.
+In this Lab, You will learn to create a static website using Amazon S3 service. Hosting a static website on Amazon s3 is simple ,easy and cost effective.
 
 # Content:
 
@@ -32,8 +32,7 @@ Step 2: Click on **Create Bucket**.
 
 ![Alt text](image.png)
 
-Step 3: 
-Enter the **Bucket name** **(1)** which should follow the S3 bucket naming rules(**Example my-first-website54334-bucket** ). Select the AWS Region **(2)** where you want your S3 bucket to reside.  .Keep the other S3 bucket configuration as default values.Click on **Create bucket** **(3)**.
+Step 3: Enter the **Bucket name** **(1)** which should follow the S3 bucket naming rules(**Example my-first-website54334-bucket** ). Select the AWS Region **(2)** where you want your S3 bucket to reside.  .Keep the other S3 bucket configuration as default values.Click on **Create bucket** **(3)**.
 
 ![Alt text](image-3.png)
 ![Alt text](image-1.png)
@@ -42,7 +41,7 @@ Enter the **Bucket name** **(1)** which should follow the S3 bucket naming rules
 
 # Exercise 2: Configure the Amazon S3 bucket to host static website and allow public access
 
-In this exercise, you will modify the S3 bucket properties to allow hosting the static website.By default, Amazon S3 buckets are configured to block public access.So we will allow public access for our s3 bucket.
+In this exercise, you will modify the S3 bucket properties to allow hosting the static website.By default, Amazon S3 buckets are configured to block public access.So we will allow public access for your s3 bucket.
 
 Lets start with exercise
 
@@ -50,12 +49,12 @@ Step 1: Navigate to S3 bucket which we create earlier **my-first-website54334-bu
 
 ![Alt text](image-5.png)
 
-Step 2: Choose **Properties tab** (1) and Scroll down to **Static website hosting** (2) section. and click on **edit** (3).
+Step 2: Choose **Properties tab (1)** and Scroll down to **Static website hosting (2)** section. and click on **edit (3)**.
 
 ![Alt text](image-8.png)
 ![Alt text](image-7.png)
 
-Step 3: Select **Enable** (1) for static website hosting option.
+Step 3: Select **Enable (1)** for static website hosting option.
 
 - In **Hosting type**, Select **Host a static website (2)**.
 - In **Index document**, enter **index.html (3)**.
@@ -84,7 +83,7 @@ Step 2: Uncheck the **Block all public access** and click on **Save changes**.
 
 ![Alt text](image-17.png)
 
-Step 3: Enter confirm (1) and click on confirm(2).
+Step 3: Enter **confirm (1)** and click on **confirm(2)**.
 
 ![Alt text](image-16.png)
 
@@ -118,7 +117,7 @@ Step 2: Copy the bucket policy provided below and paste it in **Bucket policy ed
             }
 
 
-**Note: Arn provided in the above Bucket policy should be your bucket arn. Example- **arn:aws:s3:::my-first-website54334-bucket/**
+**Note: Arn provided in the above Bucket policy should be your S3 bucket arn. Example- **arn:aws:s3:::my-first-website54334-bucket/**
 
 ![Alt text](image-19.png)
    
@@ -147,7 +146,7 @@ Step 2: Next, below we have sample html code for error html page. Copy the sampl
             </head>
             </html>
 
-You have created a sample index.html webpage and error.html webpage.
+You have created a static index.html webpage and error.html webpage.
 
 # Exercise 4.2 : We will upload the web content to Amazon s3 bucket
 
@@ -167,14 +166,17 @@ You have upload the web content successfully.
 
 Step 1: If you have completed the above exercises than you will be able to access the static website over an browser.
 
-In Exercise 2 you were asked to save Bucket website endpoint.
+In Exercise 2 you have saved Bucket website endpoint.
+
+**Note: Your S3 bucket endpoint will be different than the mentioned in sample arn.**
 
 Bucket website endpoint Example- http://my-first-website54334-bucket.s3-website-us-east-1.amazonaws.com
 
 ![Alt text](image-23.png)
 
-We will user the above end point to access S3 static website.
+you will use your S3 bucket endpoint to access S3 static website.
 
 Step 2: Open the **http://my-first-website54334-bucket.s3-website-us-east-1.amazonaws.com** in your browser. If all the exercises are correctly performed as per instruction you will get below mentioned output.
+
 
 ![Alt text](image-24.png)
