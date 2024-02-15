@@ -58,8 +58,8 @@ Step 2: Choose **Properties tab** (1) and Scroll down to **Static website hostin
 Step 3: Select **Enable** (1) for static website hosting option.
 
 - In **Hosting type**, Select **Host a static website (2)**.
-- In ** Index document**, enter **index.html**.
-- In **Error document**, enter **error.html**.
+- In **Index document**, enter **index.html (3)**.
+- In **Error document**, enter **error.html (4)**.
 
 ![Alt text](image-10.png)
 
@@ -72,4 +72,7 @@ You have successfully configured the S3 bucket to host static website. In **Stat
  Example- http://my-first-website54334-bucket.s3-website-us-east-1.amazonaws.com.
 
 ![Alt text](image-12.png)
+
+# Exercise 3: Create an Amazon S3 bucket policy.
+
 
