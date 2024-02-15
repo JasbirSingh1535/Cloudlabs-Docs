@@ -73,7 +73,7 @@ You have successfully configured the S3 bucket to host static website. In **Stat
 ![Alt text](image-12.png)
 
 # Exercise 2.2: Allow public access to the bucket
-    Here we will learn how to modify bucket properties to allow public access.By default, Amazon S3 buckets are blocked for public access.If you want to use a S3 bucket to host a static website than you must allow public access to the bucket.
+Here we will learn how to modify bucket properties to allow public access.By default, Amazon S3 buckets are blocked for public access.If you want to use a S3 bucket to host a static website than you must allow public access to the bucket.
 
 Step 1: Go to **Permissions tab (1)** and select **edit(3)** in **Block public access (bucket settings)(2)** section.
 
