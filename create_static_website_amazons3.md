@@ -15,12 +15,15 @@ Here you will get to perform following exercises
 
 # Exercise 1: Create an Amazon S3 bucket
 In this exercise you will learn how to create a standard static website.Amazon S3 is a scalable object storage service provided by AWS.
-## Before proceeding further We need to consider following mentioned rules while deciding name for Amazon S3 bucket.
+## Before proceeding further we need to consider following mentioned rules while deciding name for Amazon S3 bucket.
 - S3 bucket name must be unique.
 - It must be between 3 and 63 characters long
 - It must consist only of lowercase letters, numbers and hyphens (-).
 - It must begin and end with a letter or number.
 
 Lets start with exercise
-Step  1:
+
+Step  1: Go to Amazon Management console and Type **S3** in the top search bar field.
+![image](https://github.com/JasbirSingh1535/Cloudlabs-Docs/assets/136337151/81480d7b-4d1c-4c04-9904-be41f82fee31)
+
 
